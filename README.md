@@ -1,11 +1,10 @@
 Zend Framework Laravel Bundle
 ===================
 
-#Zend Framework as a Laravel Bundle
-
 ### Disclaimer:
 Zend Framework is the property of Zend Technologies USA, Ltd.
-Distributable under license found at: http://framework.zend.com/license
+Distributable under New BSD License found at:
+http://framework.zend.com/license
 
 Installable via the Artisan CLI:
 
@@ -16,3 +15,8 @@ Auto-load the bundle in bundles.php:
 	return array(
 		'zend' => array( 'auto' => true),
 	);
+
+Useful links:
+- homepage:      http://framework.zend.com
+- documentation: http://framework.zend.com/docs/overview
+- community:     http://framework.zend.com/community/overview
