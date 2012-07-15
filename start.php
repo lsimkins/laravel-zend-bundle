@@ -10,7 +10,7 @@
  */
 
 /**
- * Reference Zend Framework Performance Guide at:
+ * See Zend Framework Performance Guide at:
  * http://framework.zend.com/manual/1.11/en/performance.classloading.html
  */
 set_include_path(implode(PATH_SEPARATOR, array(
