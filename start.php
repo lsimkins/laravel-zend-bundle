@@ -10,14 +10,15 @@
  */
 
 /**
- * See Zend Framework Performance Guide at:
- * http://framework.zend.com/manual/1.11/en/performance.classloading.html
- */
+  * See Zend Framework Performance Guide at:
+  * http://framework.zend.com/manual/1.11/en/performance.classloading.html
+  */
+
 set_include_path(implode(PATH_SEPARATOR, array(
     __DIR__ . '/library',
     get_include_path(),
 )));
 
-Bundle::path('zend') . '/library/Zend/Loader/Autoloader.php';
+require_once Bundle::path('zend') . '/library/Zend/Loader/Autoloader.php';
 
 $autoloader = Zend_Loader_Autoloader::getInstance();
